@@ -1,0 +1,16 @@
+﻿Build started 01.12.2014 23:03:12.
+     1>Project "D:\progs\nodbus\build\nodbus.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\Никита\.node-gyp\0.10.33\src" /I"C:\Users\Никита\.node-gyp\0.10.33\deps\uv\include" /I"C:\Users\Никита\.node-gyp\0.10.33\deps\v8\include" /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D BUILDING_V8_SHARED=1 /D BUILDING_UV_SHARED=1 /D BUILDING_NODE_EXTENSION /D DEBUG /D _DEBUG /D _WINDLL /GF /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\obj\nodbus\\" /Fd"Debug\obj\nodbus\vc120.pdb" /Gd /TP /wd4251 /errorReport:prompt ..\nodbus.cc
+         nodbus.cc
+     1>d:\progs\nodbus\modbus-core.h(20): warning C4309: 'initializing' : truncation of constant value
+     1>d:\progs\nodbus\modbus-core.h(41): warning C4309: 'initializing' : truncation of constant value
+     1>C:\Users\Никита\.node-gyp\0.10.33\deps\v8\include\v8.h(179): warning C4506: no definition for inline function 'v8::Persistent<v8::Object> v8::Persistent<v8::Object>::New(v8::Handle<v8::Object>)'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\progs\nodbus\build\Debug\nodbus.node" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib DelayImp.lib "C:\Users\Никита\.node-gyp\0.10.33\Debug\node.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\progs\nodbus\build\Debug\nodbus.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 /DLL Debug\obj\nodbus\nodbus.obj
+     1>LINK : fatal error LNK1104: cannot open file 'C:\Users\Никита\.node-gyp\0.10.33\Debug\node.lib'
+     1>Done Building Project "D:\progs\nodbus\build\nodbus.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.08
